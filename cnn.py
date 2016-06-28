@@ -64,7 +64,7 @@ model.compile(loss='categorical_crossentropy',
               optimizer=sgd,
               metrics=['accuracy'])
 # starts training
-model.fit(training_inputs, training_results, nb_epoch=5, batch_size=32)  
+model.fit(training_inputs, training_results, nb_epoch=150, batch_size=32)
 #################################################################################
 
 ############################ SAVE MODEL #########################################
